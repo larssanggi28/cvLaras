@@ -1,0 +1,111 @@
+body{
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*untuk menghilangkan tanda list*/
+ul{
+    list-style: none;
+}
+
+/*untuk menghilangkan garis dibawah teks*/
+a{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2); /*untuk membuat bayangan untuk kotak atau elemen kontainer*/
+    padding: 0px 5%;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    margin: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #505050;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.logo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+th{
+    background-color: #adb1b5;
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+}
+
+.box-1{
+    width: 600px;
+    height: 450px;
+    font-size: large;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 18px rgba(0, 0, 0, 0.3);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 4px;
+}
+
+.box-2{
+    width: 400px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 18px rgba(0, 0, 0, 0.3);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 4px;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer p{
+    font-family: calibri;
+}
+
+footer{
+    height:60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #191919;
+}
+
+.copyright{
+    color:#565555;
+    font-size: 15px;
+    position: absolute;
+    left:50%;
+    bottom:10px;
+    transform: translateX(-50%);
+}
